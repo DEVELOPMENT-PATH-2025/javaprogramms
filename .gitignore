@@ -1,0 +1,21 @@
+# Compiled class files
+*.class
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Output directories
+out/
+.zencoder/
+.zenflow/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

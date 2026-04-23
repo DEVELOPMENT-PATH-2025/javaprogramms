@@ -1,0 +1,18 @@
+import java.util.Scanner;
+public class patterndownward {
+    public static void main(String[] args) {
+      
+        Scanner sc = new Scanner(System.in);
+        int a;
+        System.out.println("Enter a number of rows");
+        a = sc.nextInt();
+        for(int i = 1 ; i<= a; i--){
+            for(int j=0; j>=i; j--){
+                System.out.print(" * ");
+            }
+            System.out.println(" ");
+        }
+        sc.close();
+    }
+}
+
